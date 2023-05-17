@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Crecencia Drusila Lopez SHS | Welcome</title>
+        <link rel="shortcut icon" href="img/crencencia.png">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img/crencencia.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!--about us content-->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the Crecennians</h1>
+                    <p>Crecencia Drusila Lopez SHS is a small institution located in San Pablo, Laguna that focuses on academics, offering various courses and support to students who are interested in traditional or vocational fields. If you're looking for a school that will challenge you and help you grow, come and discover all that this institution has to offer!</p>
+                    <a href="https://www.facebook.com/DepEdTayoCDLSHS342575?mibextid=ZbWKwL" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="img/teachers.png">
+                </div>
+            </div>
+            
+        </section>
+        <!--Footer-->
+        <section class="footer">
+            <h4>About US</h4>
+            <p>Copyright 2022 Crencencia Drucila Lopez SHS</p>
+            <div class="icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-solid fa-envelope"></i>
+              <p>Made with <i class="fa-sharp fa-solid fa-mask"></i> CDLSHS TEAM</p>
+            </div>
+          </section>
+<!--JavaScript Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
